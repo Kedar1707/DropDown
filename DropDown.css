@@ -1,0 +1,154 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: url(F:/My_WorkOuts/DropDown/Images/grass.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Main-Menu {
+  background-color: black;
+  text-align: center;
+}
+.Main-Menu ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.Main-Menu ul li {
+  width: 150px;
+  margin: 15px;
+  padding: 5px;
+}
+.Main-Menu ul li a {
+  text-decoration: none;
+  color: orange;
+}
+.active,
+.Main-Menu ul li a:hover {
+  background: white;
+  border-radius: 5px;
+}
+.Main-Menu .fa {
+  margin-right: 10px;
+}
+.Sub-menu-1 {
+  display: none;
+}
+.Main-Menu ul li:hover .Sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.Main-Menu ul li:hover .Sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+.Main-Menu ul li:hover .Sub-menu-1 ul li {
+  width: 150px;
+  padding: 8px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.Main-Menu ul li:hover .Sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+.Sub-menu-2 {
+  display: none;
+}
+.Main-Menu ul li:hover .Sub-menu-2 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.Main-Menu ul li:hover .Sub-menu-2 ul {
+  display: block;
+  margin: 10px;
+}
+.Main-Menu ul li:hover .Sub-menu-2 ul li {
+  width: 150px;
+  padding: 8px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.Main-Menu ul li:hover .Sub-menu-2 ul li:last-child {
+  border-bottom: none;
+}
+.Sub-menu-3 {
+  display: none;
+}
+.Main-Menu ul li:hover .Sub-menu-3 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.Main-Menu ul li:hover .Sub-menu-3 ul {
+  display: block;
+  margin: 10px;
+}
+.Main-Menu ul li:hover .Sub-menu-3 ul li {
+  width: 150px;
+  padding: 8px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.Main-Menu ul li:hover .Sub-menu-3 ul li:last-child {
+  border-bottom: none;
+}
+
+.Sub-menu-4 {
+  display: none;
+}
+.Main-Menu ul li:hover .Sub-menu-4 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.Main-Menu ul li:hover .Sub-menu-4 ul {
+  display: block;
+  margin: 10px;
+}
+.Main-Menu ul li:hover .Sub-menu-4 ul li {
+  width: 150px;
+  padding: 8px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.Main-Menu ul li:hover .Sub-menu-4 ul li:last-child {
+  border-bottom: none;
+}
+.fa-mobile,
+.fa-hand-o-right,
+.fa-laptop {
+  float: right;
+}
+.sub-menu-5 {
+  display: none;
+}
+.hover-me:hover .sub-menu-5 {
+  position: absolute;
+  margin-top: -40px;
+  display: block;
+  margin-left: 140px;
+  background: black;
+}
